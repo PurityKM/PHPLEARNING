@@ -79,6 +79,13 @@ isNice("SINGAPORE");
 isNice("AMERICA");
 isNice("KARTAR");
 isNice("PHILLIPEANS");
+echo '<br>';
+
+function myHomeCounty($county){
+    echo "Am proud to say that i live in $county.";
+}
+
+myHomeCounty("Nyeri");
 
 ?>
 
